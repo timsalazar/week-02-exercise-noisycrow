@@ -13,7 +13,7 @@ describe "Int Next" do
 		it "should add to the integer" do
 		
 		x = 3
-		x.next.next.next.even?.should eq 6.0
+		x.next.next.next.should eq 6.0
 		
 		end
 	end
